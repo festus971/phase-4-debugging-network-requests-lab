@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+   I opened my browser devtools network part tried adding a new toy an Error was displayed 500 unintialzed constant toy Went to check my controller the line specified Found a typing error in my controller
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  Opened my dev tools Update a like a error was thrown The error was Unexpected end of JSON went to check my controller if it is parsing json data Created an increment likes custom route created a controller to update the likes and parse the json data
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Opened my dev tools Tried deleting a toy an error was thrown 404 checked my routes found out there was not route for deleting added a destroy route
